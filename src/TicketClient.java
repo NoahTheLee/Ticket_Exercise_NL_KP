@@ -24,5 +24,21 @@ public class TicketClient {
         System.out.println(jesusWalkup);
         System.out.println("===Walkup Tickets===");
 
+        AdvanceTicket kipAdvanceEarly = new AdvanceTicket(40, 42069, 15);
+        AdvanceTicket kipAdvanceLate = new AdvanceTicket(40, 420691, 5);
+        AdvanceTicket noahAdvanceEarly = new AdvanceTicket(20, 15);
+        AdvanceTicket noahAdvanceLate = new AdvanceTicket(20, 5);
+        AdvanceTicket jesusAdvanceEarly = new AdvanceTicket(30.4, 15);
+        AdvanceTicket jesusAdvanceLate = new AdvanceTicket(30.4,5);
+
+        System.out.println("===Advance Tickets===");
+        System.out.println(kipAdvanceEarly);
+        System.out.println(kipAdvanceLate);
+        System.out.println(noahAdvanceEarly);
+        System.out.println(noahAdvanceLate);
+        System.out.println(jesusAdvanceEarly);
+        System.out.println(jesusAdvanceLate);
+        System.out.println("===Advance Tickets===");
+
     }
 }
